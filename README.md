@@ -20,3 +20,17 @@ Analyzed the data to identify the different product lines, determine which produ
 
 3). Customer analysis 
 This analysis aims to identify various customer categories, assess their purchasing patterns, and evaluate the profitability of each category.
+
+### Questions regarding Product
+- 1). How many unique product lines does the data have?
+What is the most common payment method?
+What is the most selling product line?
+What is the total revenue by month?
+What month had the largest COGS?
+What product line had the largest revenue?
+What is the city with the largest revenue?
+What product line had the largest VAT?
+Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
+Which branch sold more products than average product sold?
+What is the most common product line by gender?
+What is the average rating of each product line?
