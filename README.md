@@ -24,24 +24,24 @@ Analyzed the data to identify the different product lines, determine which produ
 This analysis aims to identify various customer categories, assess their purchasing patterns, and evaluate the profitability of each category.
 
 ### Questions regarding Product
-1). How many unique product lines does the data have?
-2). What is the most common payment method?
-3). What is the most selling product line?
-4). What is the total revenue by month?
-5). What month had the largest COGS?
-6). What product line had the largest revenue?
-7). What is the city with the largest revenue?
-8). What product line had the largest VAT?
-9). Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-10). Which branch sold more products than average product sold?
-11). What is the most common product line by gender?
-12). What is the average rating of each product line?
+1. How many unique product lines does the data have?
+2. What is the most common payment method?
+3. What is the most selling product line?
+4. What is the total revenue by month?
+5. What month had the largest COGS?
+6. What product line had the largest revenue?
+7. What is the city with the largest revenue?
+8. What product line had the largest VAT?
+9. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
+10. Which branch sold more products than average product sold?
+11. What is the most common product line by gender?
+12. What is the average rating of each product line?
 
 ### Questions regarding sales
-1). Number of sales made in each time of the day per weekday
-2). Which of the customer types brings the most revenue?
-3). Which city has the largest tax percent/ VAT (Value Added Tax)?
-4). Which customer type pays the most in VAT?
+1. Number of sales made in each time of the day per weekday
+2. Which of the customer types brings the most revenue?
+3. Which city has the largest tax percent/ VAT (Value Added Tax)?
+4. Which customer type pays the most in VAT?
 
 ### Questions regarding Customer
 1. How many unique customer types are present in the data?  
@@ -54,3 +54,32 @@ This analysis aims to identify various customer categories, assess their purchas
 8. At what time of day do customers give the most ratings per branch?  
 9. Which day of the week has the highest average ratings?  
 10. Which day of the week has the highest average ratings per branch?
+
+### Revenue And Profit Calculations
+$ COGS = unitsPrice * quantity $
+
+$ VAT = 5% * COGS $
+
+VAT is added to the COGS and this is what is billed to the customer.
+
+$ total(gross_sales) = VAT + COGS $
+
+$ grossProfit(grossIncome) = total(gross_sales) - COGS $
+
+Gross Margin is gross profit expressed in percentage of the total(gross profit/revenue)
+
+$ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
+
+Example with the first row in our Database:
+
+Data given:
+
+$ \text{Unite Price} = $45.79
+$ \text{Quantity} = $7
+$ COGS = 45.79 * 7 = $320.53 
+
+$ \text{VAT} = 5% * COGS\= 5% 320.53 = $16.0265
+
+$ total = VAT + COGS\= 16.0265 + 320.53 = 336.5565
+
+$ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\=\frac{16.0265}{336.5565} = 0.047619\\approx 4.7619% $
