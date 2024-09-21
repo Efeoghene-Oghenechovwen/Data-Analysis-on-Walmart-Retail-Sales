@@ -86,7 +86,7 @@ Data given:
 
 ###SQL Codes 
 
-``` 
+``` sql
 
 -- Create database
 CREATE DATABASE IF NOT EXISTS walmartSales;
