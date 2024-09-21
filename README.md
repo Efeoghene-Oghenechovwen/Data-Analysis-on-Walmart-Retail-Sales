@@ -86,7 +86,9 @@ Data given:
 
 ###SQL Codes 
 
---- Create database
+``` 
+
+-- Create database
 CREATE DATABASE IF NOT EXISTS walmartSales;
 
 -- Create table
@@ -109,4 +111,4 @@ CREATE TABLE IF NOT EXISTS sales(
     gross_income DECIMAL(12, 4),
     rating FLOAT(2, 1)
 );
----
+```
