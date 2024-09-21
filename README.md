@@ -36,3 +36,21 @@ This analysis aims to identify various customer categories, assess their purchas
 10). Which branch sold more products than average product sold?
 11). What is the most common product line by gender?
 12). What is the average rating of each product line?
+
+### Questions regarding sales
+1). Number of sales made in each time of the day per weekday
+2). Which of the customer types brings the most revenue?
+3). Which city has the largest tax percent/ VAT (Value Added Tax)?
+4). Which customer type pays the most in VAT?
+
+### Questions regarding Customer
+1. How many unique customer types are present in the data?  
+2. How many distinct payment methods are used in the data?  
+3. Which is the most common customer type?  
+4. Which customer type makes the most purchases?  
+5. What is the predominant gender among the customers?  
+6. What is the gender distribution across each branch?  
+7. At what time of day do customers give the most ratings?  
+8. At what time of day do customers give the most ratings per branch?  
+9. Which day of the week has the highest average ratings?  
+10. Which day of the week has the highest average ratings per branch?
