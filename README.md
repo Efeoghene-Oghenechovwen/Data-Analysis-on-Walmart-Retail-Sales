@@ -56,30 +56,30 @@ This analysis aims to identify various customer categories, assess their purchas
 10. Which day of the week has the highest average ratings per branch?
 
 ### Revenue And Profit Calculations
-$ COGS = unitsPrice * quantity $
+- $ COGS = unitsPrice * quantity $
 
-$ VAT = 5% * COGS $
+- $ VAT = 5% * COGS $
 
-VAT is added to the COGS and this is what is billed to the customer.
+- VAT is added to the COGS and this is what is billed to the customer.
 
-$ total(gross_sales) = VAT + COGS $
+- $ total(gross_sales) = VAT + COGS $
 
-$ grossProfit(grossIncome) = total(gross_sales) - COGS $
+- $ grossProfit(grossIncome) = total(gross_sales) - COGS $
 
-Gross Margin is gross profit expressed in percentage of the total(gross profit/revenue)
+- Gross Margin is gross profit expressed in percentage of the total(gross profit/revenue)
 
-$ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
+- $ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
 
 Example with the first row in our Database:
 
 Data given:
 
-$ \text{Unite Price} = $45.79
-$ \text{Quantity} = $7
-$ COGS = 45.79 * 7 = $320.53 
+- $ \text{Unite Price} = $45.79
+- $ \text{Quantity} = $7
+- $ COGS = 45.79 * 7 = $320.53 
 
-$ \text{VAT} = 5% * COGS\= 5% 320.53 = $16.0265
+- $ \text{VAT} = 5% * COGS\= 5% 320.53 = $16.0265
 
-$ total = VAT + COGS\= 16.0265 + 320.53 = 336.5565
+- $ total = VAT + COGS\= 16.0265 + 320.53 = 336.5565
 
-$ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\=\frac{16.0265}{336.5565} = 0.047619\\approx 4.7619% $
+- $ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\=\frac{16.0265}{336.5565} = 0.047619\\approx 4.7619% $
