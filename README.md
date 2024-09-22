@@ -3,9 +3,9 @@
 ## Table of Content 
 - [Project overview](#project.overview)
 - [Data source](#data.source)
-- [Tools](#tools.used)
+- [Tools used](#tools.used)
 - [Business questions](#business.questions)
-- [Revenue and cost calculation](#revenueandcost.calculation)
+- [Revenue and cost calculation](#revenueandcost.calculations)
 - [Recommendation](#recommendations)
 
 ### Project Overview 
@@ -17,7 +17,7 @@ The primary dataset used for this analysis is the "Walmart_sales.csv", containin
 ### Tools
 - Excel - Data cleaning [download here](https://drive.google.com/drive/folders/178oKtwCy5TyWcsM_9wWEK9QR8CMgmTht)
 - MySQL - Data analysis 
-- Power BI - Data visualisation, dashboards and report.
+- Power BI - Dashboards and report.
 
 ### Descriptive analysis performed 
 1. Sales Analysis:
@@ -109,7 +109,7 @@ Data given:
 
 - $ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\=\frac{16.0265}{336.5565} = 0.047619\\approx 4.7619% $
 
-###SQL Codes 
+### SQL Codes 
 
 ``` sql
 
