@@ -15,8 +15,8 @@ This project focuses on analyzing Walmart retail sales data to identify the top-
 The primary dataset used for this analysis is the "Walmart_sales.csv", containing detailed information about each sales made by the company. The dataset used for this analysis was sourced from the Kaggle.
 
 ### Tools
-- Excel - Data cleaning [download here](https://drive.google.com/drive/folders/178oKtwCy5TyWcsM_9wWEK9QR8CMgmTht)
-- MySQL - Data analysis 
+- Excel - Data cleaning.
+- MySQL - Data analysis.
 - Power BI - Dashboards and report.
 
 ### Descriptive analysis performed 
