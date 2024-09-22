@@ -1,5 +1,11 @@
 # Data-Analysis-on-Walmart-Retail-Sales
 
+## Table of Content 
+- [Project overview](#project.overview)
+- [Data sources](data.sources)
+- [Business Questions](business.questions)
+- [Recommendation](#recommendation)
+- 
 ### Project Overview 
 This project focuses on analyzing Walmart retail sales data to identify the top-performing branches and products, examine sales trends across various product categories, and gain insights into customer behavior. The objective is to explore ways to enhance and optimize sales strategies. 
 
