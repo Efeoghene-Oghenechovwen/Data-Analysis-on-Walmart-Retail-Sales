@@ -2,8 +2,8 @@
 
 ## Table of Content 
 - [Project overview](#project.overview)
-- [Data sources](data.sources)
-- [Business Questions](business.questions)
+- [Data source](#data.source)
+- [Business questions](#business.questions)
 - [Recommendation](#recommendation)
 - 
 ### Project Overview 
@@ -18,16 +18,33 @@ The primary dataset used for this analysis is the "Walmart_sales.csv", containin
 - Power BI - Data visualisation, dashboards and report.
 
 ### Analysis Carried Out
-1). Sales Analysis 
+1). Sales Analysis:
+
 This analysis aims to examine sales trends across various products. The results will help evaluate the effectiveness of current sales strategies and identify any modifications needed to boost sales.
 
-2). Product analysis 
+2). Product analysis:
 
 Analyzed the data to identify the different product lines, determine which product lines are performing the best, and pinpoint those that require improvement.
 
-3). Customer analysis 
+3). Customer analysis:
 
 This analysis aims to identify various customer categories, assess their purchasing patterns, and evaluate the profitability of each category.
+
+Data Wrangling: This is the first step where data profiling is carried out and inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
+
+Build a database
+Create table and insert the data.
+Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out in other to reduce the tendency of baised finding.
+
+## Feature Engineering: This process will help generate new columns based on the existing data.
+
+- A new column, named *time_of_day*, has been added to provide insights into sales during different times of the day—Morning, Afternoon, and Evening. This will help address the question of which period sees the highest sales.
+
+- A new column, *day_name*, has been added to extract the day of the week for each transaction (Mon, Tue, Wed, Thu, Fri). This will help determine which day of the week each branch is busiest.
+
+- Another column, *month_name*, has been added to capture the month in which each transaction occurred (Jan, Feb, Mar). This will help identify the months with the highest sales and profit.
+
+## Exploratory Data Analysis (EDA): EDA has been conducted to address the key questions and objectives of this project.
 
 ### Questions regarding Product
 1. How many unique product lines does the data have?
