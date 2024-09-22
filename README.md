@@ -3,9 +3,11 @@
 ## Table of Content 
 - [Project overview](#project.overview)
 - [Data source](#data.source)
+- [Tools](#tools.used)
 - [Business questions](#business.questions)
-- [Recommendation](#recommendation)
-- 
+- [Revenue and cost calculation](#revenueandcost.calculation)
+- [Recommendation](#recommendations)
+
 ### Project Overview 
 This project focuses on analyzing Walmart retail sales data to identify the top-performing branches and products, examine sales trends across various product categories, and gain insights into customer behavior. The objective is to explore ways to enhance and optimize sales strategies. 
 
@@ -17,24 +19,24 @@ The primary dataset used for this analysis is the "Walmart_sales.csv", containin
 - MySQL - Data analysis 
 - Power BI - Data visualisation, dashboards and report.
 
-### Analysis Carried Out
-1). Sales Analysis:
+### Descriptive analysis performed 
+1. Sales Analysis:
 
 This analysis aims to examine sales trends across various products. The results will help evaluate the effectiveness of current sales strategies and identify any modifications needed to boost sales.
 
-2). Product analysis:
+2. Product analysis:
 
 Analyzed the data to identify the different product lines, determine which product lines are performing the best, and pinpoint those that require improvement.
 
-3). Customer analysis:
+3. Customer analysis:
 
 This analysis aims to identify various customer categories, assess their purchasing patterns, and evaluate the profitability of each category.
 
-Data Wrangling: This is the first step where data profiling is carried out and inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
+## Data Wrangling: This is the first step where data profiling is carried out and inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
 
-Build a database
-Create table and insert the data.
-Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out in other to reduce the tendency of baised finding.
+1. Build a database
+2. Create table and insert the data.
+3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out in other to reduce the tendency of a baised finding.
 
 ## Feature Engineering: This process will help generate new columns based on the existing data.
 
