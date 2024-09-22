@@ -112,3 +112,17 @@ CREATE TABLE IF NOT EXISTS sales(
     rating FLOAT(2, 1)
 );
 ```
+### Results and findings 
+
+The results of the analysis are summarised as follows; 
+1. The food and breavage is the best selling product line category by revenue 
+2. The Electronics and gadgets is the top selling product line category in terms of sales
+3. The e-wallet method of payment should be targeted for marketing 
+campaign and effort.
+
+### Recommendation 
+
+Based on the analysis, the following actions are recommended;
+- Invest in marketing and promotion during the peak sales seasons to maximise revenue
+- Focus on expanding and promoting product in the healthcare product line category
+- Implement a customer segmentation strategy to target high-LTV customers effectively 
