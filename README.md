@@ -94,6 +94,11 @@ This analysis aims to identify various customer categories, assess their purchas
 9. Which day of the week has the highest average ratings?  
 10. Which day of the week has the highest average ratings per branch?
 
+![CustomerInfomation](Report.png)
+
+![Walmart Payment Method](https://github.com/user-attachments/assets/0b84cc4d-593b-4fce-ae1d-551417fd3c7f)
+
+
 ### Revenue And Profit Calculations
 - $ COGS = unitsPrice * quantity $
 
