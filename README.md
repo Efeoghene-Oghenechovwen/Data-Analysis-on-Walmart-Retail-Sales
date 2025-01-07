@@ -53,6 +53,10 @@ This analysis aims to identify various customer categories, assess their purchas
 
 ## Exploratory Data Analysis (EDA): EDA has been conducted to address the key questions and objectives of this project.
 
+![Visuals and Metrics](Report.png)
+
+![Walmart Drillthrough](https://github.com/user-attachments/assets/37f49cd5-719d-4a58-aab0-1c49bbd4da21)
+
 ### Questions regarding Product
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
