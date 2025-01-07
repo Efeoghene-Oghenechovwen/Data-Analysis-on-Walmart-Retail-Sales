@@ -11,6 +11,11 @@
 ### Project Overview 
 This project focuses on analyzing Walmart retail sales data to identify the top-performing branches and products, examine sales trends across various product categories, and gain insights into customer behavior. The objective is to explore ways to enhance and optimize sales strategies. 
 
+![SalesDashboard](Report.png)
+
+
+![Walmart Viz](https://github.com/user-attachments/assets/fe3e6e41-6fcc-483b-ac83-a0003a5c370f)
+
 ### Data Source 
 The primary dataset used for this analysis is the "Walmart_sales.csv", containing detailed information about each sales made by the company. The dataset used for this analysis was sourced from the Kaggle.
 
