@@ -77,6 +77,11 @@ This analysis aims to identify various customer categories, assess their purchas
 3. Which city has the largest tax percent/ VAT (Value Added Tax)?
 4. Which customer type pays the most in VAT?
 
+![Profit Variance](Report.png)
+
+![Walmart Profit Variance](https://github.com/user-attachments/assets/3b5d5ffa-b644-4af2-a82d-6b6a0d38a614)
+
+
 ### Questions regarding Customer
 1. How many unique customer types are present in the data?  
 2. How many distinct payment methods are used in the data?  
